@@ -15,7 +15,7 @@ namespace UniversityWebAPI.Services
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Course> getCourseWithoutChapter(Chapter chapter)
+        public IEnumerable<Course> getCourseWithoutChapter()
         {
             throw new NotImplementedException();
         }
