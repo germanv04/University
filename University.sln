@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityWebAPI", "UniversityWebAPI\UniversityWebAPI.csproj", "{A8411C41-DEBF-4A80-9A02-71817BF1167C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSnippets", "LinqSnippets\LinqSnippets.csproj", "{0E2D37A0-CEF4-4876-8A46-75795247FAAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8411C41-DEBF-4A80-9A02-71817BF1167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8411C41-DEBF-4A80-9A02-71817BF1167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8411C41-DEBF-4A80-9A02-71817BF1167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8411C41-DEBF-4A80-9A02-71817BF1167C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2D37A0-CEF4-4876-8A46-75795247FAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2D37A0-CEF4-4876-8A46-75795247FAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2D37A0-CEF4-4876-8A46-75795247FAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2D37A0-CEF4-4876-8A46-75795247FAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E762CAFA-5231-495C-8B1B-F0F88695AC39}
+	EndGlobalSection
+EndGlobal
