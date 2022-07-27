@@ -2,16 +2,17 @@
 {
     public class JWTSettings
     {
-        public bool ValidateIssuerSigninKey { get; set; }
-        public string? IssuerSigninKey { get; set; }
+        //nos va a servir para comprobar la firme de nuestros usuarios
+        public bool ValidarLlaveFirmaDelEmisor { get; set; }
+        public string LlaveFirmaDelEmisor { get; set; } = string.Empty;
 
-        public bool ValidateIssuer { get; set; }
-        public string? Issuer { get; set; }
+        public bool ValidarEmisor { get; set; }
+        public string Emisor { get; set; } = string.Empty ;
 
-        public bool ValidateAudience { get; set; }
-        public string? validAudience { get; set; }
+        public bool ValidarAudiencia { get; set; }
+        public string AudienciaValida { get; set; } = string.Empty;
 
-        public bool RequireExperationTime { get; set; }
-        public bool ValidateLifeTime { get; set; }
+        public bool TiempoDeExpiracion { get; set; }
+        public bool ValidarTiempoDeVida { get; set; }
     }
 }

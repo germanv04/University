@@ -8,7 +8,7 @@ namespace UniversityWebAPI.Models.DataModels
         public string Name { get; set; } = string.Empty;
         [Required]
         public string LastName { get; set; } = string.Empty;
-        public DateTime Dob { get; set; }
+        public DateTime Dob { get; set; } //dob = fecha de nacimiento
         public ICollection<Course> Courses { get; set; } = new List<Course>();
     }
 }
